@@ -1,0 +1,77 @@
+{
+	"name" : "SystemNotifications",
+	"display_name" : "TMS Notifications View",
+	"description" : "<p>TMS Notifications View</p>",
+	"module_type" : "views",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-views-tools-default-systemnotifications",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.16",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		},
+		"packages" : [],
+		"views" : 
+		[
+			{
+				"name" : "Default",
+				"version" : "0.12.0",
+				"repo" : "https://github.com/sp-tms/tms-views-tools-default"
+			}
+		]
+	},
+	"is_subview" : true,
+	"settings" : 
+	{
+		"head" : 
+		{
+			"link" : 
+			{
+				"href" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			},
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		},
+		"footer" : 
+		{
+			"script" : 
+			{
+				"src" : 
+				{
+					"assets" : 
+					{
+						"dev" : [],
+						"prod" : []
+					}
+				}
+			}
+		}
+	}
+}
